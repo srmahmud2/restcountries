@@ -1,0 +1,22 @@
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-nav .nav-link.active,
+.nav-link,
+.navbar-brand {
+    color: aliceblue;
+}
+
+nav a {
+    background-color: tomato;
+    padding: 15px 30px !important;
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: yellowgreen
+}
