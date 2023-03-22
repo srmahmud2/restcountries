@@ -9,7 +9,7 @@ const Header = () => {
         <div className="row">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="/home">
                 Home
               </a>
               <button
@@ -29,17 +29,21 @@ const Header = () => {
               >
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
+                    <a
+                      className="nav-link active"
+                      aria-current="page"
+                      href="#test"
+                    >
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#anchor">
                       Features
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#another">
                       Pricing
                     </a>
                   </li>
