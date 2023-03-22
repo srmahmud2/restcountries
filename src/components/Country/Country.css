@@ -1,0 +1,13 @@
+.country {
+    margin: 20px;
+    background-color: bisque;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: rgb(248, 2, 2);
+    text-align: center;
+
+}
+
+.country img {
+    max-width: 100%;
+}
